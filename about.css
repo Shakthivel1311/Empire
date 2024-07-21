@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+
+.logo img {
+    border-radius: 30px;
+    display: flex;
+    height: 60px;
+    width: 80px;
+}
+
+.logos {
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(242, 25, 25);
+}
+
+nav ul li a:hover {
+    color: #151313;
+    padding-right: 30px;
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.search {
+    border: none;
+    background: transparent;
+    color: black;
+    height: 30px;
+    width: 200px;
+    transition: .5s;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(23, 4, 4);
+    font-weight: 700;
+    outline: none;
+}
+
+.search:focus {
+    width: 300px;
+    border-color: rgb(242, 25, 25);
+}
+
+
+
+/* header h1 {
+    margin: 0;
+} */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-gallery img {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.review {
+    margin-bottom: 2rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0;
+}
+
+cite {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
